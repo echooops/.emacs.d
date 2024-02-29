@@ -1,10 +1,18 @@
 * Emacs Spectre 入门
 ** Emacs 的主要相关资料
 [[https://www.gnu.org/software/emacs/][Emacs 主页]]: 可在此下载安装包，还有文档、Wiki 等的入口。
+
 [[https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html][Emacs 官方文档]]: 最准确、最全面。有能力可以直接按照官方文档进行学习。
+
 [[https://www.emacswiki.org/emacs?interface=zh-cn][Emacs Wiki]]: 关于 Emacs 插件、Emacs Lisp 的一些使用方法。
+
 [[https://www.gnu.org/software/emacs/manual/html_node/eintr/][Emacs Lisp 教程]]: Emacs Lisp 的完整教程。
+
 [[https://emacs.stackexchange.com/][Emacs StackExchange 问答论坛]]: Emacs 的 StackExchange，有着大量关于 Emacs 的提问和精品回答。
+
 [[https://www.gnu.org/software/emacs/refcards/index.html][Emacs Reference Card]] | [[https://rust.e.lntu.edu.cn/quick-reference/docs/emacs.html][Emacs 备忘清单]]: 即 Emacs 备忘表(Cheatsheet)。
+
 [[https://emacs-china.org/][Emacs 中文论坛]]: Emacs 中文社区。
+
 [[https://github.com/emacs-tw/awesome-emacs][Emacs 插件大全 awesome-emacs]]: 社区成员分门别类总结出的 Emacs 插件大全，适合探索新插件时查阅。
+
