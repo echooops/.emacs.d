@@ -16,3 +16,47 @@
 
 [[https://github.com/emacs-tw/awesome-emacs][Emacs 插件大全 awesome-emacs]]: 社区成员分门别类总结出的 Emacs 插件大全，适合探索新插件时查阅。
 
+** 内置软件包
+*** package
+
+*** ido-iComplete-fido
+
+*** imenu
+
+*** dired
+
+*** winner
+
+*** windmove
+
+*** whitespace
+
+*** flymake
+
+*** prettify-symbol-mode
+
+*** abbrev
+
+*** eldoc
+
+*** hideshow
+
+*** ielm
+elisp 交互式 scratch, 可以进行简单的 elisp 代码测试.
+
+*** org
+
+*** vc (version control)
+内置版本控制支持 git svn 等
+|----------+----------|
+| key bind | function |
+|----------+----------|
+| C-c v ?  | help     |
+
+*** eshell
+内置 shell
+
+*** eww
+内置浏览器
+
+*** others
