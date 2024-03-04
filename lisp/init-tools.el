@@ -64,7 +64,7 @@
 ;; ace-window **
 (use-package ace-window
   :ensure t
-  :bind (("C-x o" . ace-window11)))
+  :bind (("C-x o" . ace-window)))
 
 ;; mwim ****
 (use-package mwim
