@@ -1,6 +1,21 @@
-;;; Code
+;;; Code:
 
 ;; Emacs builtin packages
+;; Configs for programming languages
+(add-hook 'prog-mode-hook (lambda () (setq-local column-number-mode t)))
+(add-hook 'prog-mode-hook 'display-line-numbers-mode)
+(add-hook 'prog-mode-hook 'electric-pair-mode)
+(add-hook 'prog-mode-hook 'hs-minor-mode)
+(add-hook 'prog-mode-hook 'prettify-symbols-mode)
+(add-hook 'prog-mode-hook 'which-function-mode)
+
+(global-set-key (kbd "C-j") nil)
+(global-set-key (kbd "C-j j") 'electric-newline-and-maybe-indent)
+(global-set-key (kbd "C-j k") 'kill-whole-line)
+
+
+;; set var
+(setq confirm-kill-emacs 'yes-or-no-p)
 (setq-default auto-window-vscroll nil
 	      default-directory "~"
 	      default-text-properties '(line-spacing 0.2 line-height 1.2) ;default line height
@@ -34,7 +49,7 @@
 (add-hook 'after-init-hook 'global-visual-line-mode)
 
 ;; pixel-scroll-precise-mode
-(add-hook 'after-init-hook 'pixel-scroll-precision-mode)
+(add-hook 'after-init-hook 'pixel-scroll-precision-mode) ; 平滑滚动
 
 ;; fido-mode
 ;; `fido-mode' is provided by icomplete.el

@@ -17,6 +17,8 @@
   :config
   (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/"))
   (add-to-list 'package-archives '("gnu" . "https://elpa.gnu.org/packages/"))
+;;  (add-to-list 'package-archives '("gnu"   . "http://mirrors.cloud.tencent.com/elpa/gnu/"))
+;;  (add-to-list 'package-archives '("melpa" . "http://mirrors.cloud.tencent.com/elpa/melpa/"))
   (unless (bound-and-true-p package--initialized)
     (package-initialize)))
 
